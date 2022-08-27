@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Be Beautiful</title>
+</head>
+<body>
+    <div id="app">
+        <h1 style="text-align: center;">Upoznajte naš tim saradnika</h1>
+            <div class="row" v-if="Aktivna"> 
+                <div class="column">
+                    <div class="card">
+                        <h3>{{ime1}}</h3>
+                        <p>U našem timu je od samog početka. Diplomirao je kozmetologiju na Univerzitetu u Beogradu. Može se pohvaliti radnim iskustvom dužim od jedne decenije. U svojoj struci je vrlo cenjen.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                            <h3>Marko Marković</h3>
+                            <p>Marko je diplomirani hemičar. Svaki proizvod koji preporučujemo to uradimo u saradnji sa njim. U saradnji je sa mnogim institutima za ispitivanje i testiranje mnogih proizvoda za ulepšavanje.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h3>Jovan Jovanović</h3>
+                        <p>U našem timu je od samog početka. Diplomirao je kozmetologiju na Univerzitetu u Beogradu. Može se pohvaliti radnim iskustvom dužim od jedne decenije. U svojoj struci je vrlo cenjen</p>
+                    </div>
+                </div>
+            </div>
+            <button @click="Aktivna=!Aktivna">Nas tim</button>
+    </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="app.js"></script>
+</body>
+</html>

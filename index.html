@@ -1,38 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="pocetna.css">
+ 
     <title>Be Beautiful</title>
 </head>
+
 <body>
-    <div id="app">
-        <h1 style="text-align: center;">Upoznajte naš tim saradnika</h1>
-            <div class="row" v-if="Aktivna"> 
-                <div class="column">
-                    <div class="card">
-                        <h3>{{ime1}}</h3>
-                        <p>U našem timu je od samog početka. Diplomirao je kozmetologiju na Univerzitetu u Beogradu. Može se pohvaliti radnim iskustvom dužim od jedne decenije. U svojoj struci je vrlo cenjen.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                            <h3>Marko Marković</h3>
-                            <p>Marko je diplomirani hemičar. Svaki proizvod koji preporučujemo to uradimo u saradnji sa njim. U saradnji je sa mnogim institutima za ispitivanje i testiranje mnogih proizvoda za ulepšavanje.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h3>Jovan Jovanović</h3>
-                        <p>U našem timu je od samog početka. Diplomirao je kozmetologiju na Univerzitetu u Beogradu. Može se pohvaliti radnim iskustvom dužim od jedne decenije. U svojoj struci je vrlo cenjen</p>
-                    </div>
-                </div>
+  
+
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid" id="header">
+            <ul class="nav navbar-nav" id="precice">
+                <li><a id="slovo" href="index.html">Početna</a></li>
+                <li><a id="slovo" href="kontakt.html">Kontakt</a></li>
+                <li><a id="slovo" href="onama.html">O nama</a></li>
+                <li><a id="slovo" href="proizvodi.html">Proizvodi</a></li>
+                <li><a id="slovo" href="bestseleri.html">Bestseleri</a></li>
+
+
+            </ul>
+            <div class="logo">
+                <img src="logo.jpg" alt="" id="logo">
             </div>
-            <button @click="Aktivna=!Aktivna">Nas tim</button>
+
+        </div>
+    </nav>
+
+        
+<div class="slika">
+    <div class="tekst">
+        <h1>DOBRODOŠLI!</h1>
     </div>
-    <script src="https://unpkg.com/vue@3"></script>
-    <script src="app.js"></script>
+</div>
+
+
+<div class="row1">
+    <div class="column">
+        <div class="card">
+            <img src="alexandar.png" alt="">
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="revolution.png" alt="" style="width: 100%; height: 180px;">
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="rimmmel.png" alt="" style="width: 100%; height:180px">
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="bourjois.jpg" alt="" style="height: 180px;">
+        </div>
+    </div>
+</div>
+
+
+<div class="row2">
+    <div class="column">
+        <div class="card">
+            <img src="goldenrose.png" alt="">
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="aura.png" alt="" style="width: 100%; height: 180px;">
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="max.png" alt="" style="width: 100%; height: 180px;">
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="loreal.png" alt="" style="height: 180px;">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+
+<div class="footer" >
+
+    <div class="col-md-3">
+        <h5>Be Beautiful</h5>
+        <p>+381-327-787</p>
+        <p>+1234-2345</p>
+        <p>@bebeautiful</p>
+        <a href="onama.html">O nama</a>
+
+    </div>
+    <div class="col-md-3">
+        <h5>Servis i prava</h5>
+        <p>Sajt izradila: Anastasija Mijaljević</p>
+       <a href="index.html">&copy</a>
+       <a href="pocetnaENG.html">SRB-ENG</a>
+    </div>
+    <div class="col-md-3">
+        <h5> Kategorije</h5>
+       <p> <a href="proizvodi.html">Proizvodi</a> </p>
+      <p>  <a href="bestseleri.html">Bestseleri</a> </p>
+    </div>
+    <div class="col-md-3">
+        <h5>Podrška</h5>
+        <p>Rimmel</p>
+        <p>Alexandar cosmetics</p>
+        <p>Aura</p>
+        <p>Golden Rose</p>
+
+    </div>
+
+</div>
 </body>
+
 </html>
