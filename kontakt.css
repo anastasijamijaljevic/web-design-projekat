@@ -98,7 +98,7 @@ input[type=submit]:hover {
   margin: 0 auto !important;
   text-align: center !important;
   width: 100% !important;
-  height: 40px;
+  height: 9px;
   position: absolute;
   border-top: 1px solid grey;
 }
