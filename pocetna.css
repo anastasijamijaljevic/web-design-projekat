@@ -30,8 +30,9 @@ body {
   margin: 0 auto !important;
   text-align: center !important;
   width: 100% !important;
-  height: 40px;
+  height: 9px;
   position: absolute;
+
   border-top: 1px solid grey;
  
 }
@@ -72,16 +73,13 @@ body {
    margin-top: 80px;
    margin-bottom: 10%;
   }
-  /* Remove extra left and right margins, due to padding */
  
-  /* Clear floats after the columns */
   .row1:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive columns */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
@@ -90,7 +88,7 @@ body {
     }
   }
   
-  /* Style the counter cards */
+ 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -101,8 +99,9 @@ body {
 
 
   .row2 {
-    margin-top: 100px;
+    margin-top: 10%;
     margin-bottom: 12%;
+   
   }
 
   .row2:after {

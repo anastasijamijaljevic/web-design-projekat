@@ -4,6 +4,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
 }
 
 .column {
@@ -52,8 +53,18 @@ body {
     color: white;
     border: 1px solid blue;
     border-radius: 10%;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 45%;
 
+
+  }
+
+  .card:hover {
+    background-color: blanchedalmond;
+    box-shadow: 1px 2px 2px 1px chocolate;
+  }
+
+  h1:hover {
+    color: burlywood;
 
   }
