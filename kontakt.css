@@ -105,7 +105,7 @@ input[type=submit]:hover {
   width: 100% !important;
   height: 9px;
   position: absolute;
-  border-top: 1px solid grey;
+ 
 }
 
 @media only screen and (max-width:600px) {
@@ -115,11 +115,5 @@ input[type=submit]:hover {
   }
 }
 
-@media only screen and (max-width:600px) {
-   .col-md-3 {
-    position: relative;
-    float: left;
-    border-top: none;
-   }
-}
+
 
