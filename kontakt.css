@@ -107,3 +107,10 @@ input[type=submit]:hover {
   position: absolute;
   border-top: 1px solid grey;
 }
+
+@media only screen and (max-width:600px) {
+  .container {
+    position: absolute;
+    top: 150px;
+  }
+}
