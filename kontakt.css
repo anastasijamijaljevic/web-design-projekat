@@ -111,6 +111,7 @@ input[type=submit]:hover {
 @media only screen and (max-width:600px) {
   .container {
     position: absolute;
-    top: 20%;
+    top: 210px;
+    left: 20px;
   }
 }
