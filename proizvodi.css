@@ -53,7 +53,7 @@ img {
     height: 250px;
     width: 250px;
     margin-top: 170px;
-    margin-left: 10%;
+    margin-left: 40%;
 }
 
 #opis {
@@ -67,3 +67,9 @@ img {
     margin-left: 6%;
 }
 
+
+#slovo:hover {
+    color: red;
+    background-color: blue;
+    margin-top: 5%;
+}
